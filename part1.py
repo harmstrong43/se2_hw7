@@ -13,3 +13,12 @@ def fizzbuzz(x):
         return "FizzBuzz"
     else:
         return str(x)
+def printer():
+    for x in range(1,100):
+        if(fizzbuzz(x) == str(x)):
+            if(buzz == str(x)):
+                print(fizz(x))
+            else:
+                print(buzz(x))
+        else:
+            print(fizzbuzz(x))
