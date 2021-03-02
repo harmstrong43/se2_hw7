@@ -8,3 +8,8 @@ def buzz(x):
         return "Buzz"
     else:
         return str(x)
+def fizzbuzz(x):
+    if((x % 3 == 0) and (x % 5 == 0)):
+        return "FizzBuzz"
+    else:
+        return str(x)
